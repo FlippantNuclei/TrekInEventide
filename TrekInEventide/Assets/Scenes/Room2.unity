@@ -3927,6 +3927,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c83212059de4e2947aa73d84a44dbe89, type: 2}
+    - target: {fileID: 4011627610896398201, guid: 974071f8c9187da42b4786b69b145f47, type: 3}
+      propertyPath: m_Name
+      value: Projector Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011627610896398201, guid: 974071f8c9187da42b4786b69b145f47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4821946944167615955, guid: 974071f8c9187da42b4786b69b145f47, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
