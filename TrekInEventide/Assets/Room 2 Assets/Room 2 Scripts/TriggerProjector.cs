@@ -5,7 +5,10 @@ using UnityEngine;
 public class TriggerProjector : MonoBehaviour
 {
 
+    [Header("Projector Script")] 
     public ProjectorCycle projectorCycle;
+
+   // [Header("Film")] 
 
     void Update()
     {
