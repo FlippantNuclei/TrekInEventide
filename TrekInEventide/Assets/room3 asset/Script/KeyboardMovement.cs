@@ -15,10 +15,10 @@ public class KeyboardMovement : MonoBehaviour
 
         transform.Translate(movement);
 
-        if (DialogueManager.Instance.isDialogueActive)
-        {
-            horizontalInput = 0f;
-            verticalInput = 0f;
-        }
+        //if (DialogueManager.Instance.isDialogueActive)
+        //{
+        //    horizontalInput = 0f;
+        //    verticalInput = 0f;
+        //}
     }
 }
