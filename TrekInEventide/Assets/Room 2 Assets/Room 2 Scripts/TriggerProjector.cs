@@ -14,6 +14,7 @@ public class TriggerProjector : MonoBehaviour
     [Header("PlayerController")]
     public FPSController playerController;
 
+
     //[Header("Objects")] 
 
    // [Header("Film")] 
@@ -23,14 +24,17 @@ public class TriggerProjector : MonoBehaviour
         
     }
 
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerStay(Collider other)
     {
-        if(other.CompareTag("canPickUp"))
+        if(other.CompareTag("Player") && (Input.GetKeyDown(KeyCode.E)))
         {
             filmUIPuzzle.SetActive(true);
             playerController.enabled = false;
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
+            
         }
+
     }
-}
+}    
+
