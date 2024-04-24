@@ -8,6 +8,14 @@ public class TriggerProjector : MonoBehaviour
     [Header("Projector Script")] 
     public ProjectorCycle projectorCycle;
 
+    [Header("Film UI Popup")]
+    public GameObject filmUIPuzzle;
+
+    [Header("PlayerController")]
+    public FPSController playerController;
+
+    //[Header("Objects")] 
+
    // [Header("Film")] 
 
     void Update()
@@ -19,7 +27,10 @@ public class TriggerProjector : MonoBehaviour
     {
         if(other.CompareTag("canPickUp"))
         {
-            projectorCycle.enabled = true;
+            filmUIPuzzle.SetActive(true);
+            playerController.enabled = false;
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 }
