@@ -6,10 +6,15 @@ using UnityEngine.UI;
 public class PatternChecker : MonoBehaviour
 {
     public Image[] images; // Array to hold the images
-    public BoxCollider2D[] colliders; // Array to hold the BoxCollider2D components for each spot
+    public BoxCollider[] colliders; // Array to hold the BoxCollider2D components for each spot
     [Header("Projector Script")] 
     public ProjectorCycle projectorCycle;
+    
 
+    public void OnTriggerEnter()
+    {
+        CheckPattern();
+    }
     public void CheckPattern()
     {
         // Check if the number of images matches the number of colliders

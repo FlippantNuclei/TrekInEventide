@@ -7,6 +7,10 @@ TagManager:
   - canPickUp
   - lb_perchTarget
   - lb_groundTarget
+  - Photo1
+  - Photo2
+  - Photo3
+  - Photo4
   layers:
   - Default
   - TransparentFX
