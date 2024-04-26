@@ -1,6 +1,6 @@
-<<<<<<<< Updated upstream:TrekInEventide/Assets/VolumetricLightBeam/VolumetricLightBeam/Samples/Scenes/demoScene_hdrp.unity.meta
+<<<<<<<< Updated upstream:TrekInEventide/Assets/VolumetricLightBeam/VolumetricLightBeam/Samples/Scenes/demoScene_builtin_pipeline.unity.meta
 fileFormatVersion: 2
-guid: 0a0958e84e7894da8958b54078ee16ca
+guid: ab32aa1bfbec34bb08435f17161dcbae
 timeCreated: 1504765333
 licenseType: Free
 DefaultImporter:
@@ -9,11 +9,11 @@ DefaultImporter:
   assetBundleVariant: 
 ========
 fileFormatVersion: 2
-guid: 17b5fe439453d45a5b13f7d1c3a1dff9
+guid: 7bf98bb202eed4d2e82873c85ea5387b
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
->>>>>>>> Stashed changes:TrekInEventide/Assets/Room1Scripts.meta
+>>>>>>>> Stashed changes:TrekInEventide/Assets/Room1 Assets.meta
