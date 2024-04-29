@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - canPickUp
+  - lb_perchTarget
+  - lb_groundTarget
+  - Selectable
   layers:
   - Default
   - TransparentFX
