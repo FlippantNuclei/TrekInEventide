@@ -15,7 +15,7 @@ public class MoveCamera : MonoBehaviour
 
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked; // Lock the cursor to the center of the screen
+        //Cursor.lockState = CursorLockMode.Locked; // Lock the cursor to the center of the screen
     }
 
     void Update()
