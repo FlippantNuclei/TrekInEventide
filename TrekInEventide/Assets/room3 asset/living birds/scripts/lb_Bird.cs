@@ -24,9 +24,11 @@ public class lb_Bird : MonoBehaviour {
 	public static bool triggerDia1;
 
 	Animator anim;
+	
 	lb_BirdController controller;
 
 	public Animator dialouge1Trigger;
+	public Animator weatherChange;
 
 	bool paused = false;
 	bool idle = true;
@@ -74,6 +76,7 @@ public class lb_Bird : MonoBehaviour {
 		dialouge1Trigger = GameObject.Find("Friend").GetComponent<Animator>();
 		theDialogue1 = GameObject.Find("Flowchart");
 		//theDialogue1.GetComponent<Flowchart>().enabled = false;
+		weatherChange = GameObject.Find("WeatherChange").GetComponent<Animator>();
 
 	}
     void OnEnable () {
@@ -519,6 +522,7 @@ public class lb_Bird : MonoBehaviour {
 			//DialogueTrigger.TriggerTheDia();
 			//theDialogue1.GetComponent<Flowchart>().enabled = true;
 			triggerDia1 = true;
+			weatherChange.Play("dayChange");
 		}
 	}
 
@@ -546,6 +550,7 @@ public class lb_Bird : MonoBehaviour {
 			Debug.Log("startDialogue");
 			//theDialogue1.GetComponent<Flowchart>().enabled = true;
 			triggerDia1 = true;
+			weatherChange.Play("dayChange");
 		}
 	}
 
