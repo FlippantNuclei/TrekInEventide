@@ -5,6 +5,8 @@ using UnityEngine;
 public class ProjectorCycle : MonoBehaviour
 {
     public GameObject[] objectsToCycle; // Array of GameObjects to cycle through
+    public GameObject projectorLight;
+    public GameObject projectorSound; // Reference to the ProjectorLight GameObject
     public float cycleInterval = 1.0f; // Interval between cycling in seconds
     private int currentIndex = 0; // Index of the current active GameObject
     private bool fourthActivated = false; // Flag to track if the fourth GameObject has been activated
@@ -43,12 +45,21 @@ public class ProjectorCycle : MonoBehaviour
         if (currentIndex >= objectsToCycle.Length)
         {
             currentIndex = objectsToCycle.Length - 1; // Set index to the last GameObject
+    
+    // Activate the last GameObject
             objectsToCycle[currentIndex].SetActive(true);
+
+    // Deactivate the projector light and sound
+            if (projectorLight != null && projectorSound != null)
+            {
+                projectorSound.SetActive(false);
+                projectorLight.SetActive(false);
+            }
+
             fourthActivated = true; // Mark the fourth GameObject as activated
             CancelInvoke("CycleObjects"); // Stop cycling
             return;
         }
-
         // Activate the next GameObject
         SetActiveObject(currentIndex);
     }
