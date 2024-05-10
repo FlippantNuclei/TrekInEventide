@@ -19,6 +19,11 @@ public class RaycastProjector : MonoBehaviour
     [Header("PRESS E")]
     public GameObject PressE;
 
+    void Start()
+    {
+        PressE.SetActive(false);
+    }
+
     void Update()
     {
         // Draw a debug ray to visualize the raycast
@@ -32,6 +37,7 @@ public class RaycastProjector : MonoBehaviour
             if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Projector"))
             {
                 PressE.SetActive(true);
+                
                 // Check if the player pressed the E key
                 if (Input.GetKeyDown(KeyCode.E))
                 {
@@ -40,6 +46,7 @@ public class RaycastProjector : MonoBehaviour
                     Cursor.visible = true;
                     Cursor.lockState = CursorLockMode.None;
                 }
+                
             }
         }
         else
