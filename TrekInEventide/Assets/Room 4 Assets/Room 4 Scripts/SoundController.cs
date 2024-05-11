@@ -9,6 +9,7 @@ public class SoundController : MonoBehaviour
     [Header("Sound")]
     public AudioSource music;
     public AudioSource bellSound;
+    public AudioSource speakerSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +33,6 @@ public class SoundController : MonoBehaviour
     public IEnumerator Speaker()
     {
         yield return new WaitForSeconds(speaker);
-
+        speakerSound.Play();
     }
 }
