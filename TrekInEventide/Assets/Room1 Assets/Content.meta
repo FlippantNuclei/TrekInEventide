@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:TrekInEventide/Assets/Room1 Assets/Content.meta
 guid: 83ef4766ca41342f7b225d3e3b8ea7c6
+========
+guid: 725010af8dac24c47b2c092abd573413
+>>>>>>>> cd663a447208a8efa319293bd652965f6749319b:TrekInEventide/Assets/UI Fade Screen.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

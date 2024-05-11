@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:TrekInEventide/Assets/Room1 Assets/Video/CarAccident.renderTexture.meta
 guid: 28862253ceaa94eada364e7e7b044408
 NativeFormatImporter:
+========
+guid: e7d0ba5f0e4f73c4b9f3525da8b789a8
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> cd663a447208a8efa319293bd652965f6749319b:TrekInEventide/Assets/Room 2 Assets/Images/Materials.meta
   externalObjects: {}
   mainObjectFileID: 8400000
   userData: 
