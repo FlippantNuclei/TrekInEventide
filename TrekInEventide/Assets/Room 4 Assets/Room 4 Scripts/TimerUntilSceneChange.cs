@@ -12,7 +12,14 @@ public class TimerUntilSceneChange : MonoBehaviour
     [Header("Sound")]
     public AudioSource arrivalMessage;
     public AudioSource bellSound;
+
+    [Header("Train")]
+    
     public Animator trainSpeed;
+    public Animator trainStop;
+
+    public GameObject canvasFade;
+    public GameObject fade;
 
     void Start()
     {
@@ -27,6 +34,8 @@ public class TimerUntilSceneChange : MonoBehaviour
         yield return new WaitForSeconds(playBell);
         //music.enabled = false;
         bellSound.Play();
+        canvasFade.SetActive(true);
+        fade.SetActive(false);
     }
 
     public IEnumerator CheckTime()
@@ -34,6 +43,7 @@ public class TimerUntilSceneChange : MonoBehaviour
         yield return new WaitForSeconds(arrivalTime);
         arrivalMessage.Play();
         trainSpeed.SetTrigger("Slow");
+        trainStop.SetTrigger("Cutscene");
     }
 
    
