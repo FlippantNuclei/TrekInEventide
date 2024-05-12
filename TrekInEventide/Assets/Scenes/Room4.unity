@@ -12819,11 +12819,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d32557b0c16e30e4d9c77a07521e2f12, type: 3}
---- !u!1 &2057757882 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3631741515068919119, guid: 3209931085efaad48b0f37d8e402c17c, type: 3}
-  m_PrefabInstance: {fileID: 4146802660614035103}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2059844229
 GameObject:
   m_ObjectHideFlags: 0
@@ -13515,7 +13510,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2130265779}
   - component: {fileID: 2130265778}
-  - component: {fileID: 2130265780}
   m_Layer: 0
   m_Name: Sound Systems
   m_TagString: Untagged
@@ -13555,27 +13549,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2130265780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130265777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 525b6d802778afa4d8c67fd00322aeed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneChange: 0
-  playBell: 26
-  arrivalTime: 30
-  arrivalMessage: {fileID: 817893240}
-  bellSound: {fileID: 854992626}
-  trainSpeed: {fileID: 1860413786}
-  trainStop: {fileID: 825954600}
-  canvasFade: {fileID: 495123252}
-  fade: {fileID: 2057757882}
 --- !u!1001 &4146802660614035103
 PrefabInstance:
   m_ObjectHideFlags: 0

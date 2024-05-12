@@ -43,9 +43,16 @@ public class TimerUntilSceneChange : MonoBehaviour
         yield return new WaitForSeconds(arrivalTime);
         arrivalMessage.Play();
         //rainSpeed.SetTrigger("Slow");
-        trainStop.SetTrigger("Fade");
+        trainStop.SetTrigger("Cutscene");
+        StartCoroutine(NextScene());
     }
 
+    public IEnumerator NextScene()
+    {
+        yield return new WaitForSeconds(16);
+        SceneManager.LoadScene(6);
+        
+    }
    
     
   
