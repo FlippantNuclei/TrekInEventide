@@ -13562,9 +13562,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18a72dafd6595a741ab2808fc8601593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: 100
-  FadeTimer: 101
-  ActivateFade: 106
+  NextScene: 40
+  FadeTimer: 41
+  ActivateFade: 47
   canvas: {fileID: 495123252}
   fadeScreen: {fileID: 825954598}
   FadetheScreen: {fileID: 825954600}
