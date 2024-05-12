@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class SoundController : MonoBehaviour
 {
     public int timeTillDeparture;
     public int speaker;
+
+ 
     [Header("Sound")]
     public AudioSource music;
     public AudioSource bellSound;
@@ -34,5 +37,7 @@ public class SoundController : MonoBehaviour
     {
         yield return new WaitForSeconds(speaker);
         speakerSound.Play();
+        //fadeScreen.SetTrigger("Cutscene");
+        
     }
 }
