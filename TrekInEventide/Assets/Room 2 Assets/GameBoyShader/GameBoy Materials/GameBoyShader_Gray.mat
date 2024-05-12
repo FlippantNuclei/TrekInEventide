@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: GameBoyShader_Gray
   m_Shader: {fileID: 4800000, guid: 5000b3f0f4ef8bb4092f84b920c4b849, type: 3}
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 2100000, guid: 47d9d0c339f3a494f98927358d56d76c, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -22,21 +22,16 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
     m_Floats: []
     m_Colors:
     - _DarkColor: {r: 1, g: 1, b: 1, a: 1}
     - _DarkestColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
-    - _GBBackgroundScreen: {r: 0.79, g: 0.86, b: 0.62, a: 0.1}
     - _GBDark: {r: 0.57254905, g: 0.57254905, b: 0.57254905, a: 1}
     - _GBDarkest: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
     - _GBLight: {r: 0.68235296, g: 0.68235296, b: 0.68235296, a: 1}
     - _GBLightest: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
     - _LightColor: {r: 0, g: 0, b: 0, a: 1}
-    - _LightestColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LightestColor: {r: 0.90413547, g: 0.9245283, b: 0.80678177, a: 1}
   m_BuildTextureStacks: []
