@@ -26,7 +26,7 @@ public class ChangeScene : MonoBehaviour
     
     public IEnumerator FadeTime()
     {
-        yield return new WaitForSeconds(FadeTimer);
+        yield return new WaitForSeconds(NextSceneNumber);
         canvas.SetActive(true);
         fadeScreen.SetActive(true);
         
@@ -34,15 +34,15 @@ public class ChangeScene : MonoBehaviour
 
     public IEnumerator ActivateTime()
     {
-        yield return new WaitForSeconds(ActivateFade);
+        yield return new WaitForSeconds(FadeTimer);
         FadetheScreen.SetTrigger("Cutscene");
         
     }
 
     public IEnumerator ChangeToScene()
     {
-        yield return new WaitForSeconds(NextScene);
-        SceneManager.LoadScene(NextSceneNumber);
+        yield return new WaitForSeconds(ActivateFade);
+        SceneManager.LoadScene(6);
         
     }
 
