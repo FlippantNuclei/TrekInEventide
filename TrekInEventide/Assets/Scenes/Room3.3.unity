@@ -3417,7 +3417,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479515702}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4782cf42f2644447b9631f6e522160b, type: 3}
   m_Name: 
@@ -9899,7 +9899,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1399964723}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4782cf42f2644447b9631f6e522160b, type: 3}
   m_Name: 
@@ -10277,15 +10277,11 @@ GameObject:
   - component: {fileID: 1447485852}
   - component: {fileID: 1447485851}
   - component: {fileID: 1447485850}
-  - component: {fileID: 1447485849}
-  - component: {fileID: 1447485848}
   - component: {fileID: 1447485847}
   - component: {fileID: 1447485846}
   - component: {fileID: 1447485845}
   - component: {fileID: 1447485844}
   - component: {fileID: 1447485843}
-  - component: {fileID: 1447485842}
-  - component: {fileID: 1447485841}
   - component: {fileID: 1447485840}
   - component: {fileID: 1447485839}
   - component: {fileID: 1447485838}
@@ -10454,10 +10450,6 @@ MonoBehaviour:
   - {fileID: 1447485846}
   - {fileID: 1447485844}
   - {fileID: 1447485847}
-  - {fileID: 1447485848}
-  - {fileID: 1447485849}
-  - {fileID: 1447485841}
-  - {fileID: 1447485842}
   - {fileID: 1447485843}
   - {fileID: 1447485838}
   - {fileID: 1447485839}
@@ -10500,7 +10492,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1447485817}
   selectedCommands:
-  - {fileID: 1447485852}
+  - {fileID: 1447485830}
   variables: []
   description: 
   stepPause: 0
@@ -10963,7 +10955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: So if you are lucky enough to find the seal skin that the seal people
+  storyText: So if a man is lucky enough to find the seal skin that the seal girls
     shed when they came ashore, hide it so they can't return to the sea.
   description: 
   character: {fileID: 0}
@@ -10991,10 +10983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: 'If this seal skin is left by a seal girl, she will take the initiative
-    to marry you if she cannot find the seal skin.
-
-'
+  storyText: Then she has to marry to you.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -11021,66 +11010,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: 'If the Seal Woman or her children find a sealskin for her, she will
+  storyText: 'When the Seal girl or her children find a sealskin for her, she will
     immediately abandon her husband and children and return to her true home.
 
 
 '
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1447485841
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1447485811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 32
-  indentLevel: 0
-  storyText: ...
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1447485842
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1447485811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 31
-  indentLevel: 0
-  storyText: Moreover, seal women who take human forms are usually black-haired beauties
-    with beautiful singing voices, akin to mermaids, so men are often drawn to them.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -11196,64 +11130,6 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'It is said that they are seals in the water, but can shed their skin
     and transform into humans on land.
-
-'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1447485848
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1447485811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 25
-  indentLevel: 0
-  storyText: 'They have superb swimming skills and kind hearts. They often rescue
-    people who have fallen into the water during storms and lead lost fishing boats
-    back to safety. '
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1447485849
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1447485811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 24
-  indentLevel: 0
-  storyText: 'This earns them respect from the local people.
 
 '
   description: 
@@ -14921,7 +14797,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.69411767}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

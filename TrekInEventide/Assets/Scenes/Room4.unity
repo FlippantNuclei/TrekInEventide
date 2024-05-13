@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.9376988, g: 0.6455829, b: 0.50648725, a: 1}
+  m_IndirectSpecularColor: {r: 0.93773115, g: 0.64558285, b: 0.5064883, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6726,11 +6726,11 @@ GameObject:
   - component: {fileID: 1063797344}
   - component: {fileID: 1063797342}
   - component: {fileID: 1063797349}
-  - component: {fileID: 1063797351}
-  - component: {fileID: 1063797350}
   - component: {fileID: 1063797354}
   - component: {fileID: 1063797353}
   - component: {fileID: 1063797352}
+  - component: {fileID: 1063797355}
+  - component: {fileID: 1063797356}
   m_Layer: 0
   m_Name: Dialogue
   m_TagString: Untagged
@@ -6765,7 +6765,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1063797340}
   selectedCommands:
-  - {fileID: 1063797352}
+  - {fileID: 1063797355}
   variables: []
   description: 
   stepPause: 0
@@ -6808,7 +6808,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 20
   durationOLD: 0
 --- !u!114 &1063797339
 MonoBehaviour:
@@ -6861,8 +6861,8 @@ MonoBehaviour:
   - {fileID: 1063797349}
   - {fileID: 1063797353}
   - {fileID: 1063797352}
-  - {fileID: 1063797351}
-  - {fileID: 1063797350}
+  - {fileID: 1063797356}
+  - {fileID: 1063797355}
   suppressAllAutoSelections: 0
 --- !u!114 &1063797342
 MonoBehaviour:
@@ -7027,48 +7027,6 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 1
   durationOLD: 0
---- !u!114 &1063797350
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1063797335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d81be3d7e84da460788dccea95a3313a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 12
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1063797335}
-  destroyInXSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &1063797351
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1063797335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d81be3d7e84da460788dccea95a3313a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 11
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 2043133512}
-  destroyInXSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1063797352
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7085,7 +7043,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 5
   durationOLD: 0
 --- !u!114 &1063797353
 MonoBehaviour:
@@ -7144,6 +7102,45 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1063797355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063797335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 16
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Room4.2
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1063797356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063797335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 18
+  indentLevel: 0
+  duration: 3
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!4 &1071707279 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d32557b0c16e30e4d9c77a07521e2f12, type: 3}
@@ -14928,7 +14925,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ad979aec22d79495aa46647e7b9d3dfb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15130,7 +15127,7 @@ GameObject:
   - component: {fileID: 2130265778}
   - component: {fileID: 2130265780}
   m_Layer: 0
-  m_Name: Sound Systems
+  m_Name: Sound Systems and Scene System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15181,7 +15178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextScene: 6
-  NextSceneNumber: 100
+  NextSceneNumber: 0
   FadeTimer: 101
   ActivateFade: 106
   canvas: {fileID: 495123252}
