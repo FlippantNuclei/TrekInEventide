@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class TimerUntilSceneChange : MonoBehaviour
 {
     public int sceneChange;
+    public int sceneChangeNumber;
     public int playBell;
     public int arrivalTime;
 
@@ -50,7 +51,7 @@ public class TimerUntilSceneChange : MonoBehaviour
     public IEnumerator NextScene()
     {
         yield return new WaitForSeconds(16);
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(sceneChangeNumber);
         
     }
    

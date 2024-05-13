@@ -49,6 +49,6 @@ public class RaycastForExitDoor : MonoBehaviour
     public IEnumerator ChangeScene()
     {
         yield return new WaitForSeconds(sceneTime);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 }

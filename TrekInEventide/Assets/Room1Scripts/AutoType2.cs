@@ -18,7 +18,7 @@ public class AutoType2 : MonoBehaviour
         //4 is folder
         //5 is emial
         //6 is My Website
-        sentenceDictionary.Add(1, "\n.....\nHello？\n...\nTime and place...  how should I define this place?\n...\nI remember this interface, it was my first computer.\nI used it for 6 years until I was 13.\nIt's too old to even stream videos online.\nBut it stores a lot of important memories for me.\n...\n.......");
+        sentenceDictionary.Add(1, "\n.....\n......\n...\nTime and place...  how should I define this place?\n...\nI remember this interface, it was my first computer.\nI used it for 6 years until I was 13.\nIt's too old to even stream videos online.\nBut it stores a lot of important memories for me.\n...\n.......");
         sentenceDictionary.Add(2, "\n....\nMaybe by restarting it I can put an end to this.\nI'm going to find the key.\n...\n....");
         sentenceDictionary.Add(3, "\n. . . I exist. . . . I want to know why I exist.\n..\nMaybe nothing matters anymore,\nthe only thing that matters to me is \nthat I want to know why I'm here.\n...\n....");
         sentenceDictionary.Add(4, "\n...My folder.....\nThis is where I put my electronic diary.\nWhat will be in it...\nI need to unlock the password of the folder.\n...\n....");

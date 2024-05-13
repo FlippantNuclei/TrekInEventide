@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour
 {
     public int NextScene;
+    public int NextSceneNumber;
     public int FadeTimer;
     public int ActivateFade;
 
@@ -41,7 +42,7 @@ public class ChangeScene : MonoBehaviour
     public IEnumerator ChangeToScene()
     {
         yield return new WaitForSeconds(NextScene);
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(NextSceneNumber);
         
     }
 
